@@ -17,7 +17,7 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   margin: 5px 0;
   line-height: 1.3em;
@@ -25,20 +25,20 @@ p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 64px;
   font-weight: 700;
   letter-spacing: 0.01em;
   line-height: 1em;
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   margin: 5px 0;
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   color: hsl(333, 80%, 67%);
   margin: 5px 0;
@@ -54,9 +54,10 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr, 1fr;
-  justify-content: center;
+  justify-content: space-evenly;
   justify-items: center;
   align-items: center;
+  height:100vh;
 }
 
 .ratings h2 {
@@ -97,14 +98,20 @@ h3 {
 }
 
 .comment header {
-  height: 50px;
   margin-bottom: 25px;
+  height:50px;
 }
+
 .comment img {
   border-radius: 50%;
   height: 100%;
 }
 
-.comment header .customer {
-  display: inline-block;
+.comment p {
+  clear: auto;
+}
+
+.customer {
+  width: auto;
+  float: right;
 }
