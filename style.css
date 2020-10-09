@@ -1,0 +1,110 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background: url(images/bg-pattern-top-desktop.svg) no-repeat left top,
+    url(images/bg-pattern-bottom-desktop.svg) no-repeat right bottom;
+  margin: 0, auto;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px 0;
+  line-height: 1.3em;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+  margin: 5px 0;
+}
+
+.header {
+  padding-right: 100px;
+  color: hsl(300, 43%, 22%);
+}
+
+.container {
+  padding: 50px 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.ratings h2 {
+  background-color: hsla(333, 80%, 90%, 50%);
+  color: hsl(300, 43%, 22%);
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.a {
+  position: relative;
+  right: 50px;
+}
+
+.c {
+  position: relative;
+  left: 50px;
+}
+.ratings h2 span {
+  color: orange;
+  margin-right: 1em;
+}
+
+.testimonial {
+  margin-top: 45px;
+  grid-area: 2/1/3/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.comment {
+  padding: 30px;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+
+.comment header {
+  height: 50px;
+  margin-bottom: 25px;
+}
+.comment img {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.comment header .customer {
+  display: inline-block;
+}
